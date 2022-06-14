@@ -1,0 +1,16 @@
+{
+    "name": "mlinfra",
+    "version": "0.0.1",
+    "description": "A complete setup to train and deploy ML models (in python).",
+    "scripts": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/smaakage85/mlinfra.git"
+    },
+    "keywords": [],
+    "author": "Lars Kjeldgaard",
+    "private": true,
+    "dependencies": {
+      "aws-cdk": "2.27.0"
+    }
+  }
