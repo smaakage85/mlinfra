@@ -62,7 +62,7 @@ jobs:
       - run: |
           npx cdk deploy --ci --require-approval=never ml-init
 
-      - run: |
-          npx cdk deploy --ci --require-approval=never $(awk -F'\n' '! /ml-init/' <(npx cdk list))
-          npx cdk synth
+      #- run: |
+      #    npx cdk deploy --ci --require-approval=never $(awk -F'\n' '! /ml-init/' <(npx cdk list))
+      #    npx cdk synth
     
