@@ -11,4 +11,7 @@ env = cdk.Environment(account=account, region=region)
 
 app = cdk.App()
 
+init = InitStack(app, "ml-init", env=env)
+
+
 app.synth()

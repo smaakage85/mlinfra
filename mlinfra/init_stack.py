@@ -15,11 +15,11 @@ class InitStack(cdk.Stack):
             self,
             "ArtifactBucket",
             block_public_access=s3.BlockPublicAccess.BLOCK_ALL,
-            bucket_name="mlinfra-artifacts",
+            bucket_name="smaakage-artifacts",
         )
 
         fireworks_repository = ecr.Repository(
             self, 
             "ImageRepository", 
-            repository_name="mlinfra",
+            repository_name="smaakage",
         )
