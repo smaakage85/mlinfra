@@ -11,6 +11,6 @@
     "author": "Lars Kjeldgaard",
     "private": true,
     "dependencies": {
-      "aws-cdk": "2.27.0"
+      "aws-cdk": "1.134.0"
     }
   }
